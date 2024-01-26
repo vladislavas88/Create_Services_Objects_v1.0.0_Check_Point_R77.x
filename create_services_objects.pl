@@ -50,10 +50,7 @@ my $outFile = 'services_objects.txt';
 
 my $protocol;
 my $createService = "create $protocol_service";
-#my $createUdpService = "create udp_service";
 my $modifyServices = "modify services ";
-#my $tcpPrefix = "tcp_";
-#my $udpPrefix = "udp_";
 my $portCmd = "port";
 
 # Open result outFile for writing
