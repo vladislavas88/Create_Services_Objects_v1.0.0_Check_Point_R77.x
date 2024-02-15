@@ -1,0 +1,8 @@
+create tcp_service tcp_111
+modify services tcp_111 port 111
+create tcp_service tcp_1025
+modify services tcp_1025 port 1025
+create udp_service udp_111
+modify services udp_111 port 111
+create udp_service udp_1025
+modify services udp_1025 port 1025
